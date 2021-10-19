@@ -73,7 +73,7 @@ In this section, you create a virtual workstation by starting with a configurati
 
     If prompted to enable additional APIs, click **Enable**.
 
-    By default, this virtual workstation configuration creates an instance with 8 vCPUs, 30 GB of RAM, and a 50 GB boot disk.
+    By default, this virtual workstation configuration creates an instance with 2 vCPUs, 7.5 GB of RAM, and a 50 GB boot disk.
     
 1.  Set the following values to better accommodate the CloudXR workload:
 
@@ -105,7 +105,7 @@ other ports for remote access. This firewall rule allows access only from your p
           --priority=1000 \  
           --network=default \  
           --action=ALLOW \  
-          --rules=tcp:3389,tcp:5900,tcp:47998-48000,tcp:48002,tcp:48005,tcp:48010,udp:47998-48000,udp:48002,udp:48005,udp:48010 \  
+          --rules=tcp:3389,tcp:47998-48000,tcp:48002,tcp:48005,tcp:48010,udp:47998-48000,udp:48002,udp:48005,udp:48010 \  
           --source-ranges=[PUBLIC-IP] \  
           --target-tags=allow-cloudxr
 
