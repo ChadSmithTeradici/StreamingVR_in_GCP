@@ -67,9 +67,8 @@ In this section, you create and configure a virtual workstation, including setti
 
 In this section, you create a virtual workstation by starting with a configuration from the Google Cloud Marketplace and modifying some of its default settings.
 
-1.  Go to the [NVIDIA RTX Virtual Workstation - Windows Server 2019](https://console.cloud.google.com/marketplace/product/nvidia/nvidia-quadro-vws-win2019)
-    page in the Google Cloud Marketplace.
-
+1.  Go to the [Teradici Cloud Access Software-Graphics for Windows Server 2019](https://console.cloud.google.com/marketplace/product/teradici-public/teradici-cloud-access-software-windows-2019) page in the Google Cloud Marketplace
+  
 1.  Click **Launch**.
 
     If prompted to enable additional APIs, click **Enable**.
