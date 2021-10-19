@@ -19,7 +19,7 @@ instructions only for the [Oculus Quest 2](https://www.oculus.com/quest-2/). Whe
 
 ## Objectives
 
-+ Create a virtual workstation running Windows Server 2019.
++ Create a virtual workstation running Windows Server 2019 and Teradici PCoIP.
 + Install SteamVR and NVIDIA CloudXR on the workstation.
 + Load the CloudXR client on a virtual reality head-mounted display (HMD).
 + Connect to the virtual workstation through the CloudXR client.
@@ -28,6 +28,7 @@ instructions only for the [Oculus Quest 2](https://www.oculus.com/quest-2/). Whe
 
 This tutorial uses billable components of Google Cloud, including the following:
 
++   [Teradici PCoIP](https://console.cloud.google.com/marketplace/product/teradici-public/teradici-cloud-access-software-windows-2019?q=teradici&id=19cf745d-fea7-4f68-8130-d3876623fd68&_ga=2.150954294.1862965037.1634676985-1894139970.1589168508&project=cloudxr-328117), including PCoIP, Windows 2019, Nvidia GRID license
 +   [Compute Engine](https://cloud.google.com/compute), including vCPUs, memory, disk, and GPUs
 +   [Internet egress](https://cloud.google.com/vpc/network-pricing) for streaming data to your HMD
 
