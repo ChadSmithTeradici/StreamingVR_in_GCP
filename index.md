@@ -121,8 +121,6 @@ other ports for remote access. This firewall rule allows access only from your p
 
 In this section, you will establish a connection to your instance using Teradici the PCoIP protocol, if you have previously utilized Windows RDP for installation must continue in PCoIP because of a [limitation](https://steamcommunity.com/app/250820/discussions/0/3264459260617027967/) in SteamVR, CloudXR connections show a solid green display if connected through Microsoft RDP.
 
-1. gegege
-
 ### Create a default Windows password and connect to your virtual workstation
 
 1.  Create a Windows password for your user with the following
@@ -134,8 +132,10 @@ In this section, you will establish a connection to your instance using Teradici
 
     You can also create a password with the
     [Cloud Console](https://cloud.google.com/compute/docs/instances/windows/creating-passwords-for-windows-instances#console).
+    
+1. Dowwnload and install an PCoIP client for OS [PCoIP Client](https://docs.teradici.com/find/product/software-and-mobile-clients).
   
-1.  Using an RDP client, log in to your workstation using the credentials returned by the previous command.
+1.  Using an PCoIP client, log in to your workstation using the credentials returned by the previous command.
 
 ### Install Chrome
 
