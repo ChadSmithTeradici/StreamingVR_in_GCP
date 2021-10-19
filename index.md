@@ -133,7 +133,7 @@ In this section, you will establish a connection to your instance using Teradici
     You can also create a password with the
     [Cloud Console](https://cloud.google.com/compute/docs/instances/windows/creating-passwords-for-windows-instances#console).
     
-1. Dowwnload and install an PCoIP client for OS [PCoIP Client](https://docs.teradici.com/find/product/software-and-mobile-clients).
+1. Dowwnload and install an PCoIP client based on client OS [PCoIP Client](https://docs.teradici.com/find/product/software-and-mobile-clients).
   
 1.  Using an PCoIP client, log in to your workstation using the credentials returned by the previous command.
 
