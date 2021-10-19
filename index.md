@@ -8,7 +8,7 @@ date_published: 2021-10-20
 
 Chad Smith | Technical Alliance Architect at Teradici | HP
 
-<p style="background-color:#CAFACA;"><i>Contributed by Google employees.</i></p>
+<p style="background-color:#CAFACA;"><i>Contributed by Teradici employees.</i></p>
 
 This tutorial shows you how to stream virtual reality (VR) content from a virtual workstation on Google Cloud to a tetherless head-mounted display (HMD) such as
 the Oculus&nbsp;Quest&nbsp;2.
