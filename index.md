@@ -121,6 +121,8 @@ other ports for remote access. This firewall rule allows access only from your p
 
 In this section, you will establish a connection to your instance using Teradici the PCoIP protocol, if you have previously utilized Windows RDP for installation must continue in PCoIP because of a [limitation](https://steamcommunity.com/app/250820/discussions/0/3264459260617027967/) in SteamVR, CloudXR connections show a solid green display if connected through Microsoft RDP.
 
+1. gegege
+
 ### Create a default Windows password and connect to your virtual workstation
 
 1.  Create a Windows password for your user with the following
@@ -139,7 +141,7 @@ In this section, you will establish a connection to your instance using Teradici
 
 Install Google Chrome on the VM instance:
 
-1.  In your RDP session, launch PowerShell.
+1.  In your PCoIP session, launch PowerShell.
 1.  At the prompt, enable HTTPS requests:  
 
         [Net.ServicePointManager]::SecurityProtocol = "tls12, tls11, tls"
@@ -160,19 +162,6 @@ Install Google Chrome on the VM instance:
 1.  Remove the installer:  
 
         Remove-Item $Installer
-
-### Install TightVNC or other VNC utility
-
-In this section, you install an alternative remote desktop utility, such as Chrome Remote Desktop, Teradici PCoIP, or any variant of VNC. This tutorial uses
-[TightVNC](https://www.tightvnc.com/), which is freely available and open source.
-
-1.  Launch Google Chrome on your virtual workstation.
-1.  Download and install [TightVNC](https://www.tightvnc.com/).
-1.  Select **Typical** for the setup type.
-1.  Accept the default configuration settings.
-1.  When prompted to set passwords, choose a strong password for **Remote Access**.
-
-    Do not change the value for **Administrative Password**.
 
 ## Install Steam and SteamVR
 
