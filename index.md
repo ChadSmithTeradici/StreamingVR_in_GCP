@@ -1,12 +1,12 @@
 ---
-title: Stream virtual reality content from a virtual workstation using NVIDIA CloudXR
-description: Learn how to deploy, install, and test NVIDIA CloudXR on a virtual workstation on Google Cloud.
-author: adrian-a-graham
-tags: vr, ar, cloudxr, nvidia, virtual workstation, gpu
-date_published: 2021-08-05
+title: Stream virtual reality content from a virtual workstation using NVIDIA CloudXR and Teradici PCoIP
+description: Learn how to deploy, install, and test NVIDIA CloudXR and Teradici PCoIP on a virtual workstation on Google Cloud.
+author: chad-m-smith
+tags: vr, ar, cloudxr, nvidia, virtual workstation, gpu, teradici
+date_published: 2021-10-20
 ---
 
-Adrian Graham | Cloud Solutions Architect | Google
+Chad Smith | Technical Alliance Architect at Teradici | HP
 
 <p style="background-color:#CAFACA;"><i>Contributed by Google employees.</i></p>
 
