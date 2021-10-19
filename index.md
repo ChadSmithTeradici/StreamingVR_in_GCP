@@ -119,10 +119,7 @@ other ports for remote access. This firewall rule allows access only from your p
 
 ## Set up the connection to your workstation
 
-In this section, you connect to your instance using Microsoft Remote Desktop Protocol (RDP), install an alternative remote desktop utility, disconnect from
-RDP, and reconnect using the alternative remote desktop utility. Because of a
-[limitation](https://steamcommunity.com/app/250820/discussions/0/3264459260617027967/) in SteamVR, CloudXR connections show a solid green display if connected 
-through Microsoft RDP.
+In this section, you will establish a connection to your instance using Teradici the PCoIP protocol, if you have previously utilized Windows RDP for installation must continue in PCoIP because of a [limitation](https://steamcommunity.com/app/250820/discussions/0/3264459260617027967/) in SteamVR, CloudXR connections show a solid green display if connected through Microsoft RDP.
 
 ### Create a default Windows password and connect to your virtual workstation
 
